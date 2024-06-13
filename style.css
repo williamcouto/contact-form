@@ -16,6 +16,7 @@ section{
 .container{
     display: flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 .quest-feedback{
@@ -28,6 +29,7 @@ section{
 
 input[type="text"], input[type="email"]{
     width: 250px;
+    height: 20px;
 }
 
 input[type="button"]{
