@@ -22,8 +22,8 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(236, 201, 201);
-    padding: 13px;
+    gap: 3px;
+    padding: 20px;
 }
 
 input[type="text"], input[type="email"]{
