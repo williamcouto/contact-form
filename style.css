@@ -15,17 +15,23 @@ section{
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .quest-feedback{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
+    background-color: rgb(236, 201, 201);
+    padding: 13px;
 }
 
 input[type="text"], input[type="email"]{
     width: 250px;
+}
+
+input[type="button"]{
+    width: 55px;
+    height: 26px;
 }
 
