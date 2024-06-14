@@ -67,3 +67,8 @@ input[type="submit"]{
     height: 35px;
     padding: 7px;
 }
+
+textarea{
+    width: 550px;
+    margin: 7px;
+}
