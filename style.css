@@ -16,7 +16,7 @@ section{
     margin:auto;
     margin-top: 25px;
     background-color: #ffff;
-    border: 1px solid #000;
+    border-radius: 6px;
 }
 
 .infos-container{
@@ -65,10 +65,15 @@ input[type="button"]{
 input[type="submit"]{
     width: 130px;
     height: 35px;
-    padding: 7px;
+    padding: 5px;
 }
 
 textarea{
     width: 550px;
     margin: 7px;
+}
+
+p{
+    padding: 7px;
+    text-align: justify;
 }
