@@ -57,6 +57,9 @@ input[type="button"]{
     width: 54px;
     height: 34px;
     padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #000000a9;
 }
 
 input[type="submit"]{
