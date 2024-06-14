@@ -19,11 +19,17 @@ section{
     border: 1px solid #000;
 }
 
+.infos-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+}
+
 .container{
     display: flex;
     flex-direction:column;
     padding: 10px;
-    background-color: yellow;
 }
 
 .quest-feedback{
@@ -40,7 +46,7 @@ input{
 }
 
 input[type="text"], input[type="email"]{
-    width: 250px;
+    width: 290px;
     height: 20px;
 }
 
