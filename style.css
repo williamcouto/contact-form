@@ -15,6 +15,7 @@ section{
     width: 80vw;
     margin:auto;
     margin-top: 25px;
+    margin-bottom: 30px;
     background-color: #ffff;
     border-radius: 6px;
 }
@@ -39,6 +40,10 @@ section{
     flex-wrap: wrap;
     gap: 2px;
     padding: 20px;
+}
+
+.quest-feedback > input:hover{
+    background-color: tomato;
 }
 
 input{
