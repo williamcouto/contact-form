@@ -32,6 +32,7 @@ section{
     display: flex;
     flex-direction:column;
     padding: 10px;
+    align-items: center;
 }
 
 .quest-feedback{
@@ -57,6 +58,10 @@ input{
     padding: 3px;
 }
 
+label{
+    padding: 10px;
+}
+
 input[type="text"], input[type="email"]{
     width: 290px;
     height: 20px;
@@ -74,14 +79,14 @@ input[type="button"]{
     border: 1px solid #000000a9;
 }
 
-input[type="submit"]{
-    width: 130px;
+#bttn-submit{
+    width: 520px;
     height: 35px;
     padding: 5px;
 }
 
 textarea{
-    width: 550px;
+    width: 510px;
     margin: 7px;
     padding: 6px;
 }
