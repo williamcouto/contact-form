@@ -72,6 +72,11 @@ input[type="text"], input[type="email"]{
 
 }
 
+input[type="button"]{
+    width: 150px;
+    height: 40px;
+}
+
 textarea{
     width: 510px;
     margin: 7px;
