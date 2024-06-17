@@ -12,7 +12,7 @@ body{
 
 section{
     padding: 10px;
-    width: 70vw;
+    width: 75vw;
     margin:auto;
     margin-top: 25px;
     margin-bottom: 30px;
@@ -23,7 +23,7 @@ section{
 .infos-container{
     display: flex;
     flex-direction: column;
-    margin: 12px;
+    margin: 7px;
     padding: 10px;
     border: 1px solid #00000062;
 }
@@ -37,10 +37,6 @@ section{
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
-
-.quest-feedback > input:hover{
-    background-color: tomato;
 }
 
 #select-job{
