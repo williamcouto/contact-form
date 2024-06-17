@@ -46,6 +46,12 @@ section{
     background-color: tomato;
 }
 
+#select-job{
+    width: 200px;
+    height: 35px;
+    padding: 6px;
+}
+
 input{
     margin: 6px;
     padding: 3px;
