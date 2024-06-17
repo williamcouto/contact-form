@@ -35,8 +35,13 @@ section{
 
 .quest-feedback{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
+    gap: 2px;
+}
+
+.quest-feedback > input:hover{
+    background-color: #e5e2e2;
 }
 
 #select-job{
@@ -51,7 +56,7 @@ input{
 }
 
 label{
-    padding: 6px;
+    padding: 10px;
 }
 
 input[type="text"], input[type="email"]{
@@ -73,8 +78,12 @@ input[type="text"], input[type="email"]{
 }
 
 input[type="button"]{
-    width: 150px;
-    height: 40px;
+    width: 60px;
+    height: 33px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #ffff;
+    border: 1px solid #000;
 }
 
 textarea{
