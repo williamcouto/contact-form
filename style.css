@@ -44,12 +44,6 @@ section{
     background-color: #e5e2e2;
 }
 
-#select-job{
-    width: 200px;
-    height: 35px;
-    padding: 6px;
-}
-
 input{
     margin: 6px;
     padding: 3px;
@@ -68,13 +62,18 @@ input[type="text"], input[type="email"]{
 
 
 #bttn-submit{
-    width: 520px;
+    width: 200px;
     height: 30px;
     padding: 5px;
     cursor: pointer;
-    background-color: transparent;
+    background-color: rgb(255, 242, 242);
     border: 1px solid #0000009f;
 
+}
+
+.feedback-rating{ 
+    display: flex;
+    flex-direction: column;
 }
 
 input[type="button"]{
