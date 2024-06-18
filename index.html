@@ -13,12 +13,6 @@
         <h1>Queremos saber sua opinião.</h1>
         <p>Por favor, reserve um momento para preencher o formulário abaixo e nos enviar sua opinião. Agradecemos seu tempo e contribuição!</p>
 
-        <form method="post" class="infos-container">
-            <label for="name_user">Nome</label>
-            <input type="text" id="name_user" placeholder="Nome completo">
-            <label for="email_user">Email</label>
-            <input type="email" id="email_user" placeholder="fulano@gmail.com">
-
         <label>1. Como você avalia a qualidade e entrega do nosso produto/serviço?</label>
                 <div class="quest-feedback" id="quest1">
                     <input type="button" value="0">
@@ -101,7 +95,11 @@
                     <input type="radio" value="asw-user">TALVEZ
                 </div>
 
-            
+                <form method="post" class="infos-container">
+                    <label for="name_user">Nome</label>
+                    <input type="text" id="name_user" placeholder="Nome completo">
+                    <label for="email_user">Email</label>
+                    <input type="email" id="email_user" placeholder="fulano@gmail.com">
                 <label for="">Algum comentário ou sugestão? (Opcional)</label>
                 <textarea id="" cols="5" rows="10" placeholder="Comentário"></textarea> 
                 <input type="submit" id="bttn-submit"    value="Enviar">
