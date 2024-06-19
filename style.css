@@ -42,7 +42,7 @@ section{
 
 
 .quest-feedback > input:hover{
-    background-color: #e5e2e2;
+    background-color: #ff8181;
 }
 
 input{
@@ -51,7 +51,7 @@ input{
 }
 
 label{
-    padding: 10px;
+    padding: 8px;
 }
 
 input[type="text"], input[type="email"]{
@@ -85,11 +85,12 @@ select{
 
 input[type="button"]{
     width: 60px;
-    height: 33px;
-    padding: 8px;
+    height: 35px;
+    padding: 5px;
     cursor: pointer;
     background-color: #ffff;
-    border: 1px solid #000;
+    border: 2px solid #0000009d;
+    border-radius: 10px;
 }
 
 textarea{
