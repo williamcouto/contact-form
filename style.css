@@ -22,9 +22,10 @@ section{
 
 .infos-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px;
     padding: 6px;
+    border: 1px solid #00000088;
 }
 
 .container{
@@ -58,6 +59,12 @@ input[type="text"], input[type="email"]{
     height: 20px;
     border: 1px solid #00000062;
     padding: 5px;
+}
+
+select{
+    width: 200px;
+    height: 32px;
+    margin: 7px;
 }
 
 
