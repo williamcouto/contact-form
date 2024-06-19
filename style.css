@@ -24,8 +24,7 @@ section{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    padding: 6px;
-    
+    padding: 10px;
 }
 
 .container{
@@ -36,7 +35,7 @@ section{
 .quest-feedback{
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 5px;
     gap: 2px;
 }
 
@@ -46,7 +45,7 @@ section{
 }
 
 input{
-    margin: 6px;
+    margin: 8px;
     padding: 3px;
 }
 
