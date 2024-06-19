@@ -22,10 +22,10 @@ section{
 
 .infos-container{
     display: flex;
-    flex-direction: column;
-    margin: 7px;
-    padding: 10px;
-    border: 1px solid #00000062;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 6px;
 }
 
 .container{
@@ -36,10 +36,10 @@ section{
 .quest-feedback{
     display: flex;
     flex-direction: row;
-    
     padding: 10px;
     gap: 2px;
 }
+
 
 .quest-feedback > input:hover{
     background-color: #e5e2e2;
