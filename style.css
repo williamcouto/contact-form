@@ -80,7 +80,7 @@ select{
 
 #rating-feed{
     display: flex;
-    flex-direction: row;
+    
     background-color: red;
 }
 
