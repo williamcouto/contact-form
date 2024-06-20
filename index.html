@@ -9,10 +9,9 @@
 </head>
 <body>
     <section>
-        <div class="container">
-        <h1>Queremos saber sua opinião.</h1>
-        <p>Por favor, reserve um momento para preencher o formulário abaixo e nos enviar sua opinião. Agradecemos seu tempo e contribuição!</p>
-
+    <div class="container">
+    <h1>Queremos saber sua opinião.</h1>
+    <p>Por favor, reserve um momento para preencher o formulário abaixo e nos enviar sua opinião. Agradecemos seu tempo e contribuição!</p>
         <form method="post" class="infos-container">
         <label for="quest1">1. De 0 a 10, qual é a qualidade e entrega do nosso produto/serviço?</label>
             <div class="quest-feedback" id="asw1">
@@ -97,9 +96,9 @@
             </div>
                 
                     <label for="name_user">Nome</label>
-                    <input type="text" id="name_user" placeholder="Nome completo">
+                    <input type="text" id="name_user" placeholder="Nome completo" required>
                     <label for="email_user">Email</label>
-                    <input type="email" id="email_user" placeholder="fulano@gmail.com">
+                    <input type="email" id="email_user" placeholder="fulano@gmail.com" required>
                     <label for="select-status">Qual é a sua situação atual?</label>
                     <select id="select-status">
                         <option value="">Empregado</option>
@@ -109,9 +108,9 @@
                     </select>
                 <label for="user-comment">Algum comentário, sugestão ou crítica? (opcional)</label>
                 <textarea id="user-comment cols="5" rows="10" placeholder="Comentário"></textarea> 
-                <input type="submit" id="bttn-submit" value="Enviar">
-            <form/>
-        </div>
+                <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
+        <form/>
+    </div>
     </section>
 </body>
 <script src="script.js"></script>
