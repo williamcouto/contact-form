@@ -14,8 +14,8 @@
         <p>Por favor, reserve um momento para preencher o formulário abaixo e nos enviar sua opinião. Agradecemos seu tempo e contribuição!</p>
 
         <form method="post" class="infos-container">
-        <label>1. De 0 a 10, qual é a qualidade e entrega do nosso produto/serviço?</label>
-            <div class="quest-feedback" id="quest1">
+        <label for="quest1">1. De 0 a 10, qual é a qualidade e entrega do nosso produto/serviço?</label>
+            <div class="quest-feedback" id="asw1">
                     <input type="button" value="0">
                     <input type="button" value="1">
                     <input type="button" value="2">
@@ -29,8 +29,8 @@
                     <input type="button" value="10"> 
             </div>
 
-            <label for="">2. De 0 a 1, o quão fácil e intuitivo foi utilizar nosso produto/serviço?</label>
-                <div class="quest-feedback" id="quest2">
+            <label for="quest2">2. De 0 a 1, o quão fácil e intuitivo foi utilizar nosso produto/serviço?</label>
+                <div class="quest-feedback" id="asw2">
                     <input type="button" value="0">
                     <input type="button" value="1">
                     <input type="button" value="2">
@@ -44,8 +44,8 @@
                     <input type="button" value="10"> 
                 </div>
 
-            <label for="">3. De 0 a 10, como você avalia a resolução de um problema que teve com o produto/serviço?</label>
-                <div class="quest-feedback">
+            <label for="quest3">3. De 0 a 10, como você avalia a resolução de um problema que teve com o produto/serviço?</label>
+                <div class="quest-feedback" id="asw3">
                     <input type="button" value="0">
                     <input type="button" value="1">
                     <input type="button" value="2">
@@ -59,8 +59,8 @@
                     <input type="button" value="10"> 
                 </div>
 
-            <label for="">4. De 0 a 10, quanto o nosso produto ou serviço atendeu as suas expectativas?</label>
-                <div class="quest-feedback">
+            <label for="quest4">4. De 0 a 10, quanto o nosso produto ou serviço atendeu as suas expectativas?</label>
+                <div class="quest-feedback" id="asw4">
                     <input type="button" value="0">
                     <input type="button" value="1">
                     <input type="button" value="2">
@@ -74,8 +74,8 @@
                     <input type="button" value="10"> 
                 </div>
 
-            <label for="">5. De 0 a 10, como você avalia a variedade de funcionalidades/opções oferecidas pelo nosso produto/serviço?</label>
-                <div class="quest-feedback">
+            <label for="quest5">5. De 0 a 10, como você avalia a variedade de funcionalidades/opções oferecidas pelo nosso produto/serviço?</label>
+                <div class="quest-feedback" id="asw5">
                     <input type="button" value="0">
                     <input type="button" value="1">
                     <input type="button" value="2">
@@ -100,15 +100,15 @@
                     <input type="text" id="name_user" placeholder="Nome completo">
                     <label for="email_user">Email</label>
                     <input type="email" id="email_user" placeholder="fulano@gmail.com">
-                    <label for="">Qual é a sua situação atual?</label>
-                    <select>
+                    <label for="select-status">Qual é a sua situação atual?</label>
+                    <select id="select-status">
                         <option value="">Empregado</option>
                         <option value="">Empregado meio periodo</option>
                         <option value="">Aposentado</option>
                         <option value="">Estudante</option>
                     </select>
-                <label for="">Algum comentário, sugestão ou crítica? (opcional)</label>
-                <textarea id="" cols="5" rows="10" placeholder="Comentário"></textarea> 
+                <label for="user-comment">Algum comentário, sugestão ou crítica? (opcional)</label>
+                <textarea id="user-comment cols="5" rows="10" placeholder="Comentário"></textarea> 
                 <input type="submit" id="bttn-submit" value="Enviar">
             <form/>
         </div>
