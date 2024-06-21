@@ -5,10 +5,11 @@
     padding: 0;
 }
 
-header{
+h1 , p{
     text-align: center;
-    padding: 10px;
     color: #ffff;
+    padding: 7px;
+
 }
 
 body{
@@ -40,7 +41,7 @@ body{
 }
 
 input{
-    margin: 8px;
+    margin: 5px;
     padding: 3px;
 }
 
@@ -92,9 +93,4 @@ textarea{
     width: 510px;
     margin: 7px;
     padding: 6px;
-}
-
-p{
-    padding: 7px;
-    text-align: justify;
 }
