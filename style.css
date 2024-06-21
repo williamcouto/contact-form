@@ -44,7 +44,7 @@ body{
 
 input{
     margin: 5px;
-    padding: 3px;
+    padding: 5px;
 }
 
 label{
@@ -64,12 +64,12 @@ select{
     margin: 7px;
 }
 
-
 #bttn-submit{
     width: 40vw;
     height: 40px;
     padding: 5px;
     cursor: pointer;
+    text-align: center;
     background-color: rgb(255, 242, 242);
     border: 1px solid #0000009f;
 
@@ -79,7 +79,6 @@ select{
     display: flex;
     flex-direction: column;
 }
-
 
 input[type="button"]{
     width: 60px;
