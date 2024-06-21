@@ -39,11 +39,6 @@ section{
     gap: 2px;
 }
 
-
-.quest-feedback > input:hover{
-    background-color: #ff8181;
-}
-
 input{
     margin: 8px;
     padding: 3px;
