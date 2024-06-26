@@ -76,7 +76,7 @@ select{
 
 #bttn-submit{
     margin: auto;
-    width: 50vw;
+    width: 51vw;
     height: 40px;
     padding: 5px;
     cursor: pointer;
@@ -85,7 +85,7 @@ select{
     color: #000;
     background-color: #FFBD69;
     border: 1px solid #0000009f;
-
+    border-radius: 3px;
 }
 
 #rating-feed{
