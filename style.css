@@ -93,16 +93,6 @@ select{
     flex-direction: column;
 }
 
-input[type="button"]{
-    width: 50px;
-    height: 35px;
-    padding: 5px;
-    cursor: pointer;
-    background-color: #ffff;
-    border: 1px solid #0000004b;
-    border-radius: 10px;
-}
-
 textarea{
     width: 50vw;
     height: 25vh;
