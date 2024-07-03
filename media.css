@@ -28,4 +28,9 @@
     textarea{
         width: 70vw;
     }
+
+   header{
+       display: flex;
+       flex-direction: column;
+    }
 }
