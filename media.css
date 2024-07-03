@@ -2,12 +2,12 @@
     .infos-container{
         width: 80vw;
         padding: 7px;
-        background-color: rgb(236, 162, 162);
     }
 
     .infos-container input{
         width: 70vw;
         height: 26px;
+        border-radius: 5px;
     }
 
     input[type="radio"]{
