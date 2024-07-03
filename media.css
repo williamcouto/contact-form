@@ -14,4 +14,14 @@
         width: 15px;
         margin: 5px;
     }
+
+    #bttn-submit{
+        width: 74vw;
+        height: 5vh;
+        margin: 15px;
+    }
+
+    textarea{
+        width: 70vw;
+    }
 }
