@@ -40,13 +40,6 @@ body{
     margin-bottom: 30px;
 }
 
-.quest-feedback{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    gap: 2px;
-}
-
 input{
     margin: 5px;
     padding: 5px;
@@ -67,36 +60,11 @@ input[type="text"], input[type="email"]{
     padding: 5px;
 }
 
-select{
-    width: 230px;
-    height: 30px;
-    padding: 4px;
-    margin: 7px;
-}
-
 #bttn-submit{
-    margin: auto;
-    width: 51vw;
-    height: 40px;
     padding: 5px;
     cursor: pointer;
     font-size: 1em;
-    font-weight: bold;
     color: #000;
-    background-color: #FFBD69;
     border: 1px solid #0000009f;
     border-radius: 3px;
-}
-
-#rating-feed{
-    display: flex;
-    flex-direction: column;
-}
-
-textarea{
-    width: 50vw;
-    height: 25vh;
-    margin: auto;
-    margin-bottom: 8px;
-    padding: 5px;
 }
