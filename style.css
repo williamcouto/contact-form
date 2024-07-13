@@ -23,13 +23,17 @@ label{
     padding: 5px;
 }
 
-.infos-container{
+.container{
     display: flex;
-    flex-direction: column;
     background-color: rgb(252, 249, 249);
     padding: 20px;
-    width: 35vw;
+    width: 40vw;
     margin: auto;
+}
+
+.infos{
+    display: inline-flex;
+    background-color: red;
 }
 
 select{
