@@ -13,26 +13,27 @@
     <header>
         <h1>Contate-nos</h1>
     </header>
-    <form action="confirm-contact.html" class="infos-container">
-        <label for="name_user">Nome</label>
-        <input type="text" id="user-name" required>
+    <form action="confirm-contact.html">
+        <div class="infos-container">
+            <label for="name_user">Nome</label>
+            <input type="text" id="user-name" required>
+            <label for="">Sobrenome</label>
+            <input type="text" id="user-lastname" required>
 
-        <label for="">Sobrenome</label>
-        <input type="text" id="user-lastname" required>
-        
-        <label for="email_user">Email</label>
-        <input type="email" id="user-email" required>
-        
-        <select name="" id="">
-            <option value="">Reclamações</option>
-            <option value="">Suporte técnico</option>
-            <option value="">Parceria</option>
-            <option value="">Dúvidas</option>
-            <option value="">Outros</option>
-        </select>
-        <label for="">Mensagem</label>
-        <textarea id="" cols="35" rows="8"></textarea>
-        <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
+            <label for="email_user">Email</label>
+            <input type="email" id="user-email" required>
+
+            <select name="" id="">
+                <option value="">Reclamações</option>
+                <option value="">Suporte técnico</option>
+                <option value="">Parceria</option>
+                <option value="">Dúvidas</option>
+                <option value="">Outros</option>
+            </select>
+            <label for="">Mensagem</label>
+            <textarea id="" cols="35" rows="8"></textarea>
+            <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
+        </div>
     </form>
 </body>
 <script src="script.js"></script>
