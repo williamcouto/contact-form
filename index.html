@@ -11,8 +11,8 @@
     <header>
         <h1>Contate-nos</h1>
     </header>
-    <div class="container">
-        <form action="confirm-feed.html" class="infos-container">
+    <div>
+        <form action="confirm-feed.html">
             <label for="name_user">Nome</label>
                 <input type="text" id="user-name" required>
             <label for="">Sobrenome</label>
@@ -26,9 +26,10 @@
                 <option value="">Dúvidas</option>
                 <option value="">Outros</option>
             </select>
-            <textarea id="" cols="30" rows="8"></textarea>
+            <label for="">Mensagem</label>
+            <textarea id="" cols="35" rows="8"></textarea>
             <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
-        <form/>
+        </form>
     </div>
 </body>
 <script src="script.js"></script>

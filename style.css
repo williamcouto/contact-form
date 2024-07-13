@@ -21,23 +21,10 @@ body{
     
 }
 
-.infos-container{
+form{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    background-color: #ffff;
-    border-radius: 7px;
-    margin: auto;
-    padding: 15px;
-    width: 55vw;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 7px;
-    margin-bottom: 30px;
+    background-color: rgb(252, 249, 249);
 }
 
 input{
@@ -45,13 +32,6 @@ input{
     padding: 5px;
 }
 
-label{
-    padding: 7px;
-}
-
-.destaq{
-    font-weight: bold;
-}
 
 input[type="text"], input[type="email"]{
     width: 50%;
