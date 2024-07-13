@@ -6,20 +6,27 @@
     padding: 0;
 }
 
-
 header{
     text-align: center;
 }
 
 body{
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
-    
+}
+
+input{
+    width: 230px;
+    height: 26px;
+}
+
+label{
+    padding: 5px;
 }
 
 .infos-container{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: rgb(252, 249, 249);
     padding: 20px;
     width: 400px;
@@ -27,7 +34,7 @@ body{
 }
 
 select{
-    width: 200px;
+    width: 150px;
     height: 30px;
 }
 
