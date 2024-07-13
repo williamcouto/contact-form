@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 </head>
+
 <body>
     <header>
         <h1>Contate-nos</h1>
     </header>
-        <form action="confirm-feed.html" class="infos-container">
-            <label for="name_user">Nome</label>
-            <input type="text" id="user-name" required>
+    <form action="confirm-feed.html" class="infos-container">
+        <label for="name_user">Nome</label>
+        <input type="text" id="user-name" required>
 
-            <label for="">Sobrenome</label>
-            <input type="text" id="user-lastname" required>
+        <label for="">Sobrenome</label>
+        <input type="text" id="user-lastname" required>
 
-            <label for="email_user">Email</label>
-            <input type="email" id="user-email"  required>
-            <select name="" id="">
-                <option value="">Reclamações</option>
-                <option value="">Suporte técnico</option>
-                <option value="">Parceria</option>
-                <option value="">Dúvidas</option>
-                <option value="">Outros</option>
-            </select>
-            <label for="">Mensagem</label>
-            <textarea id="" cols="35" rows="8"></textarea>
-            <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
-        </form>
+        <label for="email_user">Email</label>
+        <input type="email" id="user-email" required>
+        <select name="" id="">
+            <option value="">Reclamações</option>
+            <option value="">Suporte técnico</option>
+            <option value="">Parceria</option>
+            <option value="">Dúvidas</option>
+            <option value="">Outros</option>
+        </select>
+        <label for="">Mensagem</label>
+        <textarea id="" cols="35" rows="8"></textarea>
+        <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
+    </form>
 </body>
 <script src="script.js"></script>
+
 </html>
