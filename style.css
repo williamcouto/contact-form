@@ -15,25 +15,26 @@ body{
 }
 
 input{
-    width: 230px;
-    height: 26px;
+    width: 210px;
+    height: 30px;
 }
 
 label{
+    font-size: 1.1em;
     padding: 5px;
+    margin-top: 5px;
 }
 
 .container{
     display: flex;
     background-color: rgb(252, 249, 249);
     padding: 20px;
-    width: 40vw;
+    width: 50vw;
     margin: auto;
 }
 
 .infos{
-    display: inline-flex;
-    background-color: red;
+    display: flex;
 }
 
 select{
