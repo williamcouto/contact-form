@@ -21,10 +21,12 @@ body{
     
 }
 
-form{
+.infos-container{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: rgb(252, 249, 249);
+    padding: 20px;
 }
 
 input{
