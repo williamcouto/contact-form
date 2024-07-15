@@ -17,7 +17,7 @@ body{
 input{
     width: 275px;
     height: 33px;
-    margin-top: 8px;
+    margin-top: 3px;
     border-radius: 5px;
     border: 1px solid #5252529f;
 }
@@ -25,7 +25,7 @@ input{
 label{
     font-weight: bold;
     padding: 7px;
-    margin-bottom: 4px;
+    margin-top: 5px;
 }
 
 .container{
