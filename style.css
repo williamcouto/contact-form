@@ -40,8 +40,9 @@ label{
 
 .group-infos{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-end;
+
 }
 
 .msg-container{
