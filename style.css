@@ -6,10 +6,8 @@
     padding: 0;
 }
 
-header{
-    text-align: center;
-    padding: 20px;
-    margin: 7px;
+h1{
+    margin: 10px;
 }
 
 body{
@@ -23,27 +21,23 @@ input{
 
 label{
     font-weight: bold;
-    font-size: 1.1em;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .container{
     display: flex;
+    flex-direction: column;
     background-color: rgb(252, 249, 249);
     padding: 20px;
     width: 45vw;
     margin: auto;
 }
 
-.infos{
+.group-infos{
     display: flex;
     flex-wrap: wrap;
-}
-
-.msg-container{
-    display: flex;
-    flex-direction: column;
+    align-items: flex-end;
 }
 
 select{
