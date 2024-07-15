@@ -8,6 +8,8 @@
 
 header{
     text-align: center;
+    padding: 20px;
+    margin: 7px;
 }
 
 body{
@@ -20,8 +22,10 @@ input{
 }
 
 label{
+    font-weight: bold;
     font-size: 1.1em;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -45,6 +49,11 @@ label{
 select{
     width: 150px;
     height: 30px;
+}
+
+input[type="email"]{
+    
+    width: 53%;
 }
 
 
