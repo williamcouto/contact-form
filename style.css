@@ -40,6 +40,11 @@ label{
     align-items: flex-end;
 }
 
+.msg-container{
+   display: flex;
+   flex-direction: column;
+}
+
 select{
     width: 150px;
     height: 30px;
