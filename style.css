@@ -35,6 +35,7 @@ label{
     padding: 20px;
     width: 45vw;
     margin: auto;
+    margin-top: 30px;
 }
 
 .group-infos{
@@ -62,7 +63,7 @@ input[type="email"]{
 #bttn-submit{
     width: 100%;
     height: 43px;
-    padding: 5px;
+    padding: 7px;
     cursor: pointer;
     font-size: 1em;
     color: #000;  
