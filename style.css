@@ -21,20 +21,25 @@ input{
 
 label{
     font-size: 1.1em;
-    padding: 5px;
-    margin-top: 5px;
+    padding: 10px;
 }
 
 .container{
     display: flex;
     background-color: rgb(252, 249, 249);
     padding: 20px;
-    width: 50vw;
+    width: 45vw;
     margin: auto;
 }
 
 .infos{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.msg-container{
+    display: flex;
+    flex-direction: column;
 }
 
 select{
