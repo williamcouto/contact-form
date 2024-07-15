@@ -13,29 +13,32 @@
     <div class="container">
         <h1>Entre em contato</h1>
         <form action="confirm-contact.html">
-                    <div class="group-infos">
-                        <label for="name_user">Nome</label>
-                        <input type="text" id="user-name" required>
-                        <label for="">Sobrenome</label>
-                        <input type="text" id="user-lastname"  required>
-                        <label for="email_user">Email</label>
-                        <input type="email" id="user-email"  required>
-                    </div>
+            <div class="group-infos">
+                <div>
+                    <label for="name_user">Nome</label>
+                    <input type="text" id="user-name" required>
+                </div>
+                <div>
+                    <label for="">Sobrenome</label>
+                    <input type="text" id="user-lastname" required>
+                </div>
+            </div>
+            <label for="email_user">Email</label>
+            <input type="email" id="user-email" required>
 
-                    
-                        <label for="">Assunto</label>
-                        <select name="" id="">
-                            <option value="">Reclamações</option>
-                            <option value="">Suporte técnico</option>
-                            <option value="">Parceria</option>
-                            <option value="">Dúvidas</option>
-                            <option value="">Outros</option>
-                        </select>
-                        <div class="msg-container">
-                        <label for="">Mensagem</label>
-                        <textarea id="" cols="35" rows="8" placeholder="Comentário"></textarea>
-                        <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
-                    </div>
+            <label for="">Assunto</label>
+            <select name="" id="">
+                <option value="">Reclamações</option>
+                <option value="">Suporte técnico</option>
+                <option value="">Parceria</option>
+                <option value="">Dúvidas</option>
+                <option value="">Outros</option>
+            </select>
+            <div class="msg-container">
+                <label for="">Mensagem</label>
+                <textarea id="" cols="35" rows="8" placeholder="Comentário"></textarea>
+                <input type="submit" id="bttn-submit" value="Enviar" onclick="enviarForm()">
+            </div>
         </form>
     </div>
 </body>
