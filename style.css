@@ -19,7 +19,7 @@ input{
     width: 270px;
     height: 37px;
     margin-top: 3px;
-    border-radius: 5px;
+    border-radius: 6px;
     border: 1px solid #5252529f;
 }
 
@@ -59,9 +59,10 @@ label{
 select{
     display: block;
     margin-top: 12px;
-    padding: 7px;
-    width: 200px;
-    height: 35px;
+    margin-bottom: 11px;
+    padding: 8px;
+    width: 260px;
+    height: 37px;
 }
 
 input[type="email"]{
