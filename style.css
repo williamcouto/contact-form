@@ -63,6 +63,7 @@ select{
     padding: 8px;
     width: 260px;
     height: 37px;
+    font-size: 15px;
 }
 
 input[type="email"]{
