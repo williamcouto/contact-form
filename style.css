@@ -12,7 +12,7 @@ h1{
 
 body{
     font-family: 'Work sans', Arial, Helvetica, sans-serif;
-    background-color: #C8D5B9;
+    background-color: #f7e5ca;/* #C8D5B9; */
 }
 
 input{
@@ -33,7 +33,7 @@ label{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 45vw;
+    width: 42vw;
     margin: auto;
     margin-top: 30px;
     background-color: #ffff;
@@ -43,7 +43,7 @@ label{
 .group-infos{
     display: flex;
     flex-wrap: wrap;
-    gap: 11px;
+    gap: 22px;
 }
 
 .group-infos > div{
