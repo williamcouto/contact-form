@@ -70,14 +70,15 @@ input[type="email"]{
 
 #bttn-submit{
     width: 100%;
-    height: 41px;
-    margin-top: 15px;
+    height: 47px;
+    margin-top: 13px;
+    background-color: #022B3A;
     padding: 7px;
     cursor: pointer;
     font-size: 1em;
-    color: #000;  
+    color: #ffff;  
 }
 
 textarea{
-    padding: 8px;
+    padding: 6px;
 }
