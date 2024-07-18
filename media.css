@@ -1,6 +1,16 @@
 @media  screen and (min-width:360px) and (max-width:800px) {
    .container{
     display: flex;
-    width: 84vw;
+    width: 80vw;
+   }
+
+   .group-infos{
+    display: flex;
+    gap: 3px;
+    }
+
+
+   input{
+    width: 230px;
    }
 }
