@@ -1,36 +1,6 @@
 @media  screen and (min-width:360px) and (max-width:800px) {
-    .infos-container{
-        width: 80vw;
-        padding: 7px;
-    }
-
-    .infos-container input{
-        width: 70vw;
-        height: 26px;
-        border-radius: 5px;
-    }
-
-    input[type="radio"]{
-        width: 15px;
-        margin: 5px;
-    }
-
-    #bttn-submit{
-        width: 74vw;
-        height: 7vh;
-        margin: 15px;
-    }
-
-    label{
-        margin: 5px;
-    }
-
-    textarea{
-        width: 70vw;
-    }
-
-   header{
-       display: flex;
-       flex-direction: column;
-    }
+   .container{
+    display: flex;
+    width: 84vw;
+   }
 }
