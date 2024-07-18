@@ -1,9 +1,10 @@
 @media  screen and (min-width:360px) and (max-width:800px) {
    .container{
     display: flex;
-    width: 90vw;
-    padding: 16px;
+    width: 85vw;
+    padding: 18px;
     margin-top: 15px;
+    margin-bottom: 20px;
     border-radius: 11px;
    }
 
@@ -13,14 +14,26 @@
     }
 
     textarea{
-        width: 60vw;
-        height: 27vh;
+        width: 80vw;
+        height: 30vh;
+        border: 1px solid #0808087c;
+        border-radius: 3px;
     }
 
     label{
         font-weight: bold;
         padding: 7px;
-        margin-top: 5px;
+    }
+
+    #bttn-submit{
+        width: 100%;
+        height: 45px;
+        margin-top: 22px;
+        background-color: #022B3A;
+        padding: 7px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #ffff;  
     }
     
  
