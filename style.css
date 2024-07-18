@@ -32,7 +32,7 @@ label{
 .container{
     display: flex;
     flex-direction: column;
-    width: 44vw;
+    width: 45vw;
     margin: auto;
     padding: 22px;
     margin-top: 30px;
@@ -43,7 +43,7 @@ label{
 .group-infos{
     display: flex;
     flex-wrap: wrap;
-    gap: 22px;
+    gap: 20px;
 }
 
 .group-infos > div{
@@ -67,7 +67,7 @@ select{
 }
 
 input[type="email"]{
-    width: 38vw;
+    width: 35vw;
     margin-bottom: 20px;
 }
 
