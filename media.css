@@ -1,7 +1,10 @@
 @media  screen and (min-width:360px) and (max-width:800px) {
    .container{
     display: flex;
-    width: 80vw;
+    width: 90vw;
+    padding: 16px;
+    margin-top: 15px;
+    border-radius: 11px;
    }
 
    .group-infos{
@@ -9,7 +12,18 @@
     gap: 3px;
     }
 
+    textarea{
+        width: 60vw;
+        height: 27vh;
+    }
 
+    label{
+        font-weight: bold;
+        padding: 7px;
+        margin-top: 5px;
+    }
+    
+ 
    input{
     width: 230px;
    }
