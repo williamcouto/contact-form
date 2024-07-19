@@ -14,7 +14,7 @@
     }
 
     textarea{
-        width: 80vw;
+        width: 77vw;
         height: 30vh;
         border: 1px solid #0808087c;
         border-radius: 3px;
@@ -22,7 +22,7 @@
 
     label{
         font-weight: bold;
-        padding: 7px;
+        padding: 3px;
     }
 
     #bttn-submit{
