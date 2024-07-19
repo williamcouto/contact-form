@@ -2,7 +2,7 @@
    .container{
     display: flex;
     width: 85vw;
-    padding: 18px;
+    padding: 16px;
     margin-top: 15px;
     margin-bottom: 20px;
     border-radius: 11px;
@@ -10,6 +10,7 @@
 
    .group-infos{
     display: flex;
+    flex-direction: column;
     gap: 3px;
     }
 
@@ -36,8 +37,17 @@
         color: #ffff;  
     }
     
- 
    input{
-    width: 230px;
+    width: 260px;
+   }
+
+   select{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #0808087c;
+   }
+
+   input[type="email"]{
+    width: 260px;
    }
 }
