@@ -15,10 +15,11 @@
     }
 
     textarea{
-        width: 77vw;
+        width: 79vw;
         height: 30vh;
         border: 1px solid #0808087c;
         border-radius: 3px;
+        margin-bottom: 23px;
     }
 
     label{
@@ -27,9 +28,9 @@
     }
 
     #bttn-submit{
-        width: 100%;
-        height: 45px;
-        margin-top: 22px;
+        width: 240px;
+        height: 47px;
+        margin: auto;
         background-color: #022B3A;
         padding: 7px;
         cursor: pointer;
