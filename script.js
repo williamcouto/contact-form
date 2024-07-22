@@ -6,6 +6,6 @@ function enviarForm(){
     let user_comment = document.getElementById('user-comment')
 
     if(name_user.length >= 10 && email.length != '' && sel_job != ''){
-        window.location = "./confirm-feed.html"
+        window.alert = "Mensagem Enviada com Sucesso!"
     }
 }
