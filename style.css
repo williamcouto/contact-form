@@ -73,12 +73,14 @@ input[type="email"]{
 
 #bttn-submit{
     width: 100%;
-    height: 47px;
-    margin-top: 13px;
+    height: 52px;
+    margin-top: 15px;
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
     background-color: #022B3A;
     padding: 7px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.2em;
+    border-radius: 3px;
     color: #ffff;  
 }
 
