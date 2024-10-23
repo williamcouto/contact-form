@@ -21,7 +21,12 @@ input{
     margin-top: 4px;
     border-radius: 5px;
     padding: 4px;
-    border: 1px solid #5252529f;
+    outline: none;
+    border: 2px solid #ccc;
+}
+
+input:focus{
+    border-color: #022B3A;
 }
 
 label{
