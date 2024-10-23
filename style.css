@@ -16,10 +16,11 @@ body{
 }
 
 input{
-    width: 280px;
-    height: 37px;
-    margin-top: 3px;
-    border-radius: 6px;
+    width: 282px;
+    height: 30px;
+    margin-top: 4px;
+    border-radius: 5px;
+    padding: 4px;
     border: 1px solid #5252529f;
 }
 
@@ -35,7 +36,7 @@ label{
     width: 45vw;
     margin: auto;
     padding: 16px;
-    margin-top: 15px;
+    margin-top: 14px;
     background-color: #ffff;
     border-radius: 11px;
 }
